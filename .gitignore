@@ -1,0 +1,12 @@
+*.docx
+*_Original.pdf
+
+*.tmp
+
+*.zip
+
+*.code-workspace
+
+*/bin/
+*/obj/
+*/.vscode/

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Description.fs" />
+    <Compile Include="StringInterop.fs" />
+    <Compile Include="Errors.fs" />
+    <Compile Include="TransformMonoid.fs" />
+    <Compile Include="FormattedImage.fs" />
+    <Compile Include="PostContent.fs" />
+    <Compile Include="ImageInterop.fs" />
+    <Compile Include="ImageCommands.fs" />
+    <Compile Include="ImageTransform.fs" />
+    <Compile Include="Controllers/ImageTransformController.fs" />
+    <Compile Include="Controllers/DescriptionController.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SixLabors.ImageSharp" Version="2.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+  </ItemGroup>
+</Project>
