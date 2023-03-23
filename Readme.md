@@ -15,7 +15,9 @@ ImageProcessor depends on the SixLabors.ImageSharp and Swashbuckle.AspNetCore pa
 
 Client is a simple CLI HTTP client that communicates with the ImageProcessor endpoint, by default on localhost port 7261.
 To start up the ImageProcessor locally, do `dotnet run` in the ImageProcessor directory before running the client.
+
 Client Usage: `<program>.fs <PathToImage> <PathToCommandsFile> <PathForResult>`.
+
 The Client directory also contains an example image, set of commands, and transformed image.
 
 The commands language specification may be found in the design documentation and in `ImageTransformer/Controllers/DescriptionController.fs`.
